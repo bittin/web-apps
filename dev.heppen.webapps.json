@@ -16,7 +16,7 @@
         "--device=dri",
         "--share=network",
         "--filesystem=xdg-config/cosmic",
-        "--talk-name=com.system76.CosmicSettingsDaemon"
+        "--talk-name=com.system76.CosmicSettingsDaemon.*"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin",
